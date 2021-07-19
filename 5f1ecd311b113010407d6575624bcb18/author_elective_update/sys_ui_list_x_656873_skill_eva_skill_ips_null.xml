@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_656873_skill_eva_skill_ips" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_656873_skill_eva_skill_ips</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>4b92ba391b153010407d6575624bcb6b</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_656873_skill_eva_skill_ips</sys_name>
+            <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2021-07-13 04:12:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</application>
+        <file_path/>
+        <instance_id>ec6e75cadb83e050f37acac505961961</instance_id>
+        <instance_name>dev108222</instance_name>
+        <name>sys_ui_list_x_656873_skill_eva_skill_ips_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_656873_skill_eva_skill_ips" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_656873_skill_eva_skill_ips</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>4b92ba391b153010407d6575624bcb6b</sys_id><sys_mod_count/><sys_name>x_656873_skill_eva_skill_ips</sys_name><sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2021-07-13 04:12:56</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>881876092</payload_hash>
+        <record_name>x_656873_skill_eva_skill_ips</record_name>
+        <reverted_from/>
+        <source>131ecd311b113010407d6575624bcb1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 04:12:56</sys_created_on>
+        <sys_id>636c0ff91b553010407d6575624bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a9e115f090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 04:12:56</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>ab6c0ff9e45530108d133f993d6a3322</update_guid>
+        <update_guid_history>ab6c0ff9e45530108d133f993d6a3322:881876092</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 03:29:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>63de5fc640664947839608df1cfcb2e1</sys_id>
+        <sys_metadata>7c115ffd1b553010407d6575624bcb74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_656873_skill_eva_skill_ips</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+        <sys_parent display_value="">f0111ffd1b553010407d6575624bcbeb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+        <sys_scope_delete display_value="">39df4bdf073c4eb891ea245e342fe610</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_656873_skill_eva_skill_ips_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_656873_skill_eva_skill_ips_null">636c0ff91b553010407d6575624bcb23</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 03:29:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

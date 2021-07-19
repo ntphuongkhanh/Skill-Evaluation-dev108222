@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_656873_skill_eva_submission</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DeleteRelatedRecord</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var gr1 = new GlideRecord('x_656873_skill_eva_skill_assessment');
+	gr1.addQuery('submission',current.getValue('sys_id')); 
+	gr1.query();
+	gr1.deleteMultiple();
+	
+	var gr2 = new GlideRecord('x_656873_skill_eva_cert_acquisition');
+	gr2.addQuery('submission',current.getValue('sys_id'));
+	gr2.query();
+	gr2.deleteMultiple();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 02:35:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>485741221b91b010407d6575624bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DeleteRelatedRecord</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+        <sys_update_name>sys_script_485741221b91b010407d6575624bcb4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 02:35:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=485741221b91b010407d6575624bcb4a"/>
+</record_update>

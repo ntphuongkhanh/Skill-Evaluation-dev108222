@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cert Acquisition" max_length="40" name="x_656873_skill_eva_cert_acquisition" sizeclass="1" type="collection">
+        <element attributes="encode_utf8=false" label="Certificate" mandatory="true" max_length="32" name="certificate" reference="x_656873_skill_eva_certificate" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Certification number" max_length="1000" name="certification_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Certified date" max_length="40" name="certified_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ServiceNow release" max_length="1000" name="servicenow_release" type="string"/>
+        <element attributes="encode_utf8=false" display="true" label="Submission" max_length="32" name="submission" read_only="true" reference="x_656873_skill_eva_submission" type="reference"/>
+        <index name="index">
+            <element name="certificate"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

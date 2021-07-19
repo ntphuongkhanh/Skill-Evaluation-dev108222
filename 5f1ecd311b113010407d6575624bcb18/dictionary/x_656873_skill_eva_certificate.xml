@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificate" max_length="40" name="x_656873_skill_eva_certificate" sizeclass="14" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Certificate name" max_length="1000" name="certificate_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Product line" max_length="32" name="product_line" reference="x_656873_skill_eva_product_line" type="reference"/>
+        <index name="index">
+            <element name="product_line"/>
+        </index>
+    </element>
+</database>
