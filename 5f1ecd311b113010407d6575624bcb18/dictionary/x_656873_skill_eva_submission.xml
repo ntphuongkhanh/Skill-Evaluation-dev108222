@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Submission" max_length="40" name="x_656873_skill_eva_submission" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element attributes="encode_utf8=false" label="Level" max_length="32" name="level" read_only="true" reference="x_656873_skill_eva_level" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Open by" max_length="32" name="open_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Score" max_length="40" name="score" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="Draft" label="State" max_length="1000" name="state" read_only="true" type="string"/>
+        <element default="true" label="Valid" max_length="40" name="valid" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="level"/>
+        </index>
+        <index name="index2">
+            <element name="open_by"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Skill Evaluation">6f94d5351b113010407d6575624bcbb0</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_656873_skill_eva_submission">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_656873_skill_eva_submission</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_656873_skill_eva.admin,x_656873_skill_eva.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 19:29:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff94d9391b113010407d6575624bcb69</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>My Skill Evaluations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+        <sys_update_name>sys_app_module_ff94d9391b113010407d6575624bcb69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 05:28:10</sys_updated_on>
+        <timeline_page/>
+        <title>My Skill Evaluations</title>
+        <uncancelable>false</uncancelable>
+        <view_name>My Skill Evaluations</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

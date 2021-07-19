@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Level" max_length="40" name="x_656873_skill_eva_level" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Level" max_length="1000" name="level" type="string"/>
+        <element label="Min Score" max_length="40" name="min_score" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

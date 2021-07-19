@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_656873_skill_eva_skill_assessment" sizeclass="100" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="N/A" label="Proficiency level" max_length="1000" name="proficiency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Conceptual/Trained" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 – Experienced" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 – Expert" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 – Guru" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="N/A" sequence="4" value="0"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Skill" max_length="32" name="skill" reference="x_656873_skill_eva_skill" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="Submission" max_length="32" name="submission" reference="x_656873_skill_eva_submission" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

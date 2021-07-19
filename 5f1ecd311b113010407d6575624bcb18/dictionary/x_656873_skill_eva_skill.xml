@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill" max_length="40" name="x_656873_skill_eva_skill" sizeclass="20" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" dependent="product_line" dependent_on_field="product_line" display="true" label="Product line" max_length="32" name="product_line" reference="x_656873_skill_eva_product_line" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Skill description" max_length="1000" name="skill_description" type="string"/>
+        <element label="Weight" max_length="40" name="weight" type="integer"/>
+        <index name="index">
+            <element name="product_line"/>
+        </index>
+    </element>
+</database>

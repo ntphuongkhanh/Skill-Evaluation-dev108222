@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="skillips" max_length="40" name="x_656873_skill_eva_skillips" sizeclass="20" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product line" label="Product line" max_length="40" name="u_product_line" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Skill description" label="Skill description" max_length="93" name="u_skill_description" type="string"/>
+    </element>
+</database>

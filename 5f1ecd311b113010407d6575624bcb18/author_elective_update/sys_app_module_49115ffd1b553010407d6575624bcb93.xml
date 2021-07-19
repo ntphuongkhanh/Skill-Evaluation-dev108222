@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>skill ips</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_656873_skill_eva_skill_ips</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 04:33:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49115ffd1b553010407d6575624bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>skill ips</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+        <sys_update_name>sys_app_module_49115ffd1b553010407d6575624bcb93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 04:33:14</sys_updated_on>
+        <timeline_page/>
+        <title>skill ips</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</application>
+        <file_path/>
+        <instance_id>ec6e75cadb83e050f37acac505961961</instance_id>
+        <instance_name>dev108222</instance_name>
+        <name>sys_app_module_49115ffd1b553010407d6575624bcb93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>skill ips</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_656873_skill_eva_skill_ips</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 04:33:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>49115ffd1b553010407d6575624bcb93</sys_id><sys_mod_count>0</sys_mod_count><sys_name>skill ips</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope><sys_update_name>sys_app_module_49115ffd1b553010407d6575624bcb93</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 04:33:14</sys_updated_on><timeline_page/><title>skill ips</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1946758858</payload_hash>
+        <record_name>skill ips</record_name>
+        <reverted_from/>
+        <source>131ecd311b113010407d6575624bcb1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 04:33:14</sys_created_on>
+        <sys_id>c5115ffd1b553010407d6575624bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a9e23f57c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 04:33:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>01115ffd3d5530104183f0974baca095</update_guid>
+        <update_guid_history>01115ffd3d5530104183f0974baca095:-1946758858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="skill ips">540c80de1bd17010407d6575624bcba8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 03:29:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>13b19823cb7a4167ab9b7d0b858b4969</sys_id>
+        <sys_metadata>49115ffd1b553010407d6575624bcb93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>skill ips</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_656873_skill_eva">5f1ecd311b113010407d6575624bcb18</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">5f1ecd311b113010407d6575624bcb18</sys_scope>
+        <sys_scope_delete display_value="">39df4bdf073c4eb891ea245e342fe610</sys_scope_delete>
+        <sys_update_name>sys_app_module_49115ffd1b553010407d6575624bcb93</sys_update_name>
+        <sys_update_version display_value="sys_app_module_49115ffd1b553010407d6575624bcb93">c5115ffd1b553010407d6575624bcb95</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 03:29:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
